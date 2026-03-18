@@ -1,0 +1,49 @@
+digraph struct {bgcolor=RosyBrown rankdir = HR
+
+
+Info[shape=record, style=filled, fillcolor="grey", label="SIZE: 21", fontcolor = "black", fontsize = 20];
+label = "tree_dump from function int main(), Tree/main.cpp:26";
+node0[shape=record, style=filled, fillcolor="red", label=" {ADDRESS: 00C30C60 | DATA: Animal | PARENT: 00C32EA8 | LEFT: 00C30C78 | RIGHT: 00C30DB0}"];
+node0->node1 [color = "lime"];
+node1[shape=record, style=filled, fillcolor="lime", label=" {ADDRESS: 00C30C78 | DATA: People | PARENT: 00C30C60 | LEFT: 00C30C90 | RIGHT: 00C30D68}"];
+node1->node2 [color = "lime"];
+node2[shape=record, style=filled, fillcolor="lime", label=" {ADDRESS: 00C30C90 | DATA: Flower | PARENT: 00C30C78 | LEFT: 00C30CA8 | RIGHT: 00C30D20}"];
+node2->node3 [color = "lime"];
+node3[shape=record, style=filled, fillcolor="lime", label=" {ADDRESS: 00C30CA8 | DATA: fruit | PARENT: 00C30C90 | LEFT: 00C30CC0 | RIGHT: 00C30D08}"];
+node3->node4 [color = "lime"];
+node4[shape=record, style=filled, fillcolor="lime", label=" {ADDRESS: 00C30CC0 | DATA: blondinka | PARENT: 00C30CA8 | LEFT: 00C30CD8 | RIGHT: 00C30CF0}"];
+node4->node5 [color = "lime"];
+node5[shape=record, style=filled, fillcolor="lime", label=" {ADDRESS: 00C30CD8 | DATA: RT | PARENT: 00C30CC0 | LEFT: 00000000 | RIGHT: 00000000}"];
+node4->node6 [color = "aqua"];
+node6[shape=record, style=filled, fillcolor="aqua", label=" {ADDRESS: 00C30CF0 | DATA: Woman | PARENT: 00C30CC0 | LEFT: 00000000 | RIGHT: 00000000}"];
+node3->node7 [color = "aqua"];
+node7[shape=record, style=filled, fillcolor="aqua", label=" {ADDRESS: 00C30D08 | DATA: apple | PARENT: 00C30CA8 | LEFT: 00000000 | RIGHT: 00000000}"];
+node2->node8 [color = "aqua"];
+node8[shape=record, style=filled, fillcolor="aqua", label=" {ADDRESS: 00C30D20 | DATA: Purple | PARENT: 00C30C90 | LEFT: 00C30D38 | RIGHT: 00C30D50}"];
+node8->node9 [color = "lime"];
+node9[shape=record, style=filled, fillcolor="lime", label=" {ADDRESS: 00C30D38 | DATA: Rose | PARENT: 00C30D20 | LEFT: 00000000 | RIGHT: 00000000}"];
+node8->node10 [color = "aqua"];
+node10[shape=record, style=filled, fillcolor="aqua", label=" {ADDRESS: 00C30D50 | DATA: Lilia | PARENT: 00C30D20 | LEFT: 00000000 | RIGHT: 00000000}"];
+node1->node11 [color = "aqua"];
+node11[shape=record, style=filled, fillcolor="aqua", label=" {ADDRESS: 00C30D68 | DATA: Teach Matan | PARENT: 00C30C78 | LEFT: 00C30D80 | RIGHT: 00C30D98}"];
+node11->node12 [color = "lime"];
+node12[shape=record, style=filled, fillcolor="lime", label=" {ADDRESS: 00C30D80 | DATA: Ded | PARENT: 00C30D68 | LEFT: 00000000 | RIGHT: 00000000}"];
+node11->node13 [color = "aqua"];
+node13[shape=record, style=filled, fillcolor="aqua", label=" {ADDRESS: 00C30D98 | DATA: Lunina | PARENT: 00C30D68 | LEFT: 00000000 | RIGHT: 00000000}"];
+node0->node14 [color = "aqua"];
+node14[shape=record, style=filled, fillcolor="aqua", label=" {ADDRESS: 00C30DB0 | DATA: blue | PARENT: 00C30C60 | LEFT: 00C304B0 | RIGHT: 00C30F40}"];
+node14->node15 [color = "lime"];
+node15[shape=record, style=filled, fillcolor="lime", label=" {ADDRESS: 00C304B0 | DATA: pink | PARENT: 00C30DB0 | LEFT: 00C30E38 | RIGHT: 00C30E80}"];
+node15->node16 [color = "lime"];
+node16[shape=record, style=filled, fillcolor="lime", label=" {ADDRESS: 00C30E38 | DATA: Frog | PARENT: 00C304B0 | LEFT: 00000000 | RIGHT: 00000000}"];
+node15->node17 [color = "aqua"];
+node17[shape=record, style=filled, fillcolor="aqua", label=" {ADDRESS: 00C30E80 | DATA: Flamingo | PARENT: 00C304B0 | LEFT: 00000000 | RIGHT: 00000000}"];
+node14->node18 [color = "aqua"];
+node18[shape=record, style=filled, fillcolor="aqua", label=" {ADDRESS: 00C30F40 | DATA: small | PARENT: 00C30DB0 | LEFT: 00C30DF0 | RIGHT: 00C30EF8}"];
+node18->node19 [color = "lime"];
+node19[shape=record, style=filled, fillcolor="lime", label=" {ADDRESS: 00C30DF0 | DATA: Kit | PARENT: 00C30F40 | LEFT: 00000000 | RIGHT: 00000000}"];
+node18->node20 [color = "aqua"];
+node20[shape=record, style=filled, fillcolor="aqua", label=" {ADDRESS: 00C30EF8 | DATA: fish | PARENT: 00C30F40 | LEFT: 00000000 | RIGHT: 00000000}"];
+
+
+}
